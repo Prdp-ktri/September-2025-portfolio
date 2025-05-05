@@ -9,8 +9,7 @@ const projects = [
     demoUrl: "https://adani-real-estate.onrender.com",
     tags: ["React", "TailwindCSS", "Supabase"],
     githubUrl: "https://github.com/Prdp-ktri/LandingPageWithTailwind",
-    image:
-      "D:codingGitHubReposmay2025_portfoliomay2025_portfoliopublicprojects/Adani.jpg",
+    image: "../../public/projects/Adani.jpg",
   },
   {
     id: 2,
@@ -20,8 +19,7 @@ const projects = [
     demoUrl: "https://movie-review-app-xsyj.onrender.com",
     tags: ["HTML5", "CSS3", "JavaScript"],
     githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
-    image:
-      "D:codingGitHubReposmay2025_portfoliomay2025_portfoliopublicprojects/MovieReview.jpg",
+    image: "../../public/projects/MovieReview.jpg",
   },
   {
     id: 3,
@@ -31,8 +29,7 @@ const projects = [
     demoUrl: "https://edusityusa.onrender.com",
     tags: ["React", "TailwindCSS", "Supabase"],
     githubUrl: "https://github.com/Prdp-ktri/EdusityUSA",
-    image:
-      "D:codingGitHubReposmay2025_portfoliomay2025_portfoliopublicprojects/Edusity.jpg",
+    image: "../../public/projects/Edusity.jpg",
   },
 ];
 
@@ -55,8 +52,20 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
-                <img src={project.image} alt={project.title} />
+              <div className="h-32 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <div className="p-6">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tags.map((tag) => {
+                    <span>{tag}</span>;
+                  })}
+                </div>
               </div>
             </div>
           ))}
