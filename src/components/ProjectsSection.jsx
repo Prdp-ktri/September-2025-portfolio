@@ -10,7 +10,7 @@ const projects = [
     demoUrl: "https://adani-real-estate.onrender.com",
     tags: ["React", "TailwindCSS", "Supabase"],
     githubUrl: "https://github.com/Prdp-ktri/LandingPageWithTailwind",
-    image: "../../public/projects/Adani.jpg",
+    image: "../../projects/Adani.jpg",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     demoUrl: "https://movie-review-app-xsyj.onrender.com",
     tags: ["HTML5", "CSS3", "JavaScript"],
     githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
-    image: "../../public/projects/MovieReview.jpg",
+    image: "../../projects/MovieReview.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projects = [
     demoUrl: "https://edusityusa.onrender.com",
     tags: ["React", "TailwindCSS", "Supabase"],
     githubUrl: "https://github.com/Prdp-ktri/EdusityUSA",
-    image: "../../public/projects/Edusity.jpg",
+    image: "../../projects/Edusity.jpg",
   },
 ];
 

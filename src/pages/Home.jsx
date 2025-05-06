@@ -6,6 +6,7 @@ import { ProjectsSection } from "../components/ProjectsSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/STarBackground";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -29,6 +30,7 @@ export const Home = () => {
       </main>
 
       {/* Footer */}
+      <Footer />
     </div>
   );
 };
