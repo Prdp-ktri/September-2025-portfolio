@@ -14,16 +14,6 @@ const projects = [
   },
   {
     id: 2,
-    title: "Movie Review App",
-    description:
-      "A beautiful CRUD app using HTML5, CSS3, and JavaScript to add movie reviews and further one can edit or delete the reviews.",
-    demoUrl: "https://movie-review-app-xsyj.onrender.com",
-    tags: ["HTML5", "CSS3", "JavaScript"],
-    githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
-    image: "../../projects/MovieReview.jpg",
-  },
-  {
-    id: 3,
     title: "Edusity USA",
     description:
       "A beautiful landing page of the Edusity USA app using React and Tailwind.",
@@ -31,6 +21,16 @@ const projects = [
     tags: ["React", "TailwindCSS", "Supabase"],
     githubUrl: "https://github.com/Prdp-ktri/EdusityUSA",
     image: "../../projects/Edusity.jpg",
+  },
+  {
+    id: 3,
+    title: "Movie Review App",
+    description:
+      "A beautiful CRUD app using HTML5, CSS3, and JavaScript to add movie reviews and further one can edit or delete the reviews.",
+    demoUrl: "https://movie-review-app-xsyj.onrender.com",
+    tags: ["HTML5", "CSS3", "JavaScript"],
+    githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
+    image: "../../projects/MovieReview.jpg",
   },
 ];
 
