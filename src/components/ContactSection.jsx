@@ -16,19 +16,19 @@ export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    setIsSubmitting(true);
+  //   setIsSubmitting(true);
 
-    setTimeout(() => {
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      setIsSubmitting(false);
-    }, 1500);
-  };
+  //   setTimeout(() => {
+  //     toast({
+  //       title: "Message Sent!",
+  //       description: "Thank you for your message. I'll get back to you soon.",
+  //     });
+  //     setIsSubmitting(false);
+  //   }, 1500);
+  // };
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -129,11 +129,16 @@ export const ContactSection = () => {
 
           <div
             className="bg-card p-8 rounded-lg shadow-xs"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
           >
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
 
-            <form className="space-y-6" onSubmit={handleSubmit} method="POST">
+            <form
+              className="space-y-6"
+              method="POST"
+              action="https://getform.io/f/bqokxmlb"
+              encType="multipart/form-data"
+            >
               <div>
                 <label
                   htmlFor="name"
@@ -145,6 +150,7 @@ export const ContactSection = () => {
                 <input
                   type="name"
                   id="name"
+                  name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Write Your Name"
@@ -161,6 +167,7 @@ export const ContactSection = () => {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Write Your Email"
@@ -177,6 +184,7 @@ export const ContactSection = () => {
                 <textarea
                   type="text"
                   id="message"
+                  name="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
                   placeholder="Write Your Message"
