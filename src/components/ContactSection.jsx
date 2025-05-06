@@ -9,7 +9,6 @@ import {
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useForm, ValidationError } from "@formspree/react";
 
 export const ContactSection = () => {
   return (
@@ -107,12 +106,7 @@ export const ContactSection = () => {
           <div className="bg-card p-8 rounded-lg shadow-xs">
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
 
-            <form
-              className="space-y-6"
-              action={"https://formspree.io/f/mldbbpqg"}
-              method="POST"
-              onSubmit={handleSubmit}
-            >
+            <form className="space-y-6" method="POST">
               <div>
                 <label
                   htmlFor="name"
