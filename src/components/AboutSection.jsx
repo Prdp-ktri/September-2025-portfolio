@@ -34,9 +34,10 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="PRADEEPKHATRI-RESUME_Amd.pdf"
+                href="https://drive.google.com/file/d/1BR6F_hpqIw93G24mN2y8lwHCGo_EUWgE/view?usp=drive_link"
                 className="px-6 py-2 rounded-full border-primary text-primary
               hover:bg-primary/10 transition-colors duration-300 card-hover"
+                target="_blank"
               >
                 {" "}
                 Download CV
