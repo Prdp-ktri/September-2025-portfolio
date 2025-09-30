@@ -51,6 +51,16 @@ const projects = [
     githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
     image: "../../projects/MovieReview.jpg",
   },
+  {
+    id: 6,
+    title: "Mobirise Responsive Website",
+    description:
+      "A modern, responsive website built using HTML, CSS, and JavaScript, inspired by Mobirise’s design. Features clean layouts, smooth animations, and a mobile-friendly interface for a professional web presence.",
+    demoUrl: "https://mobirise-website.onrender.com",
+    tags: ["HTML", "CSS", "Javascript"],
+    githubUrl: "https://github.com/Prdp-ktri/mobirise-website",
+    image: "../../projects/mobirise.jpg",
+  },
 ];
 
 export const ProjectsSection = () => {
