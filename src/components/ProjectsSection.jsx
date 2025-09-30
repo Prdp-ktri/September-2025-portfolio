@@ -4,6 +4,25 @@ import { href } from "react-router-dom";
 const projects = [
   {
     id: 1,
+    title: "Finesse Furnishing E-COMMERCE",
+    description: "",
+    demoUrl: "",
+    tags: ["React", "TailwindCSS"],
+    githubUrl: "https://github.com/Prdp-ktri/bed-n-sofa-E-commerce-project",
+    image: "",
+  },
+  {
+    id: 2,
+    title: "Booking dot com",
+    description:
+      "Developed a responsive clone of Booking.com featuring accommodation search, filtering, and intuitive navigation. Designed with a clean UI and seamless user experience across devices, showcasing skills in front-end development, state management, and modern web design.",
+    demoUrl: "https://booking-frontend-i01p.onrender.com/",
+    tags: ["React", "TailwindCSS"],
+    githubUrl: "https://github.com/Prdp-ktri/bookingdotcom",
+    image: "../../projects/bookingdotcom.jpg",
+  },
+  {
+    id: 3,
     title: "ADANI Real Estate",
     description:
       "A beautiful landing page of the ADANI Real Estate app using React and Tailwind.",
@@ -13,7 +32,7 @@ const projects = [
     image: "../../projects/Adani.jpg",
   },
   {
-    id: 2,
+    id: 5,
     title: "Edusity USA",
     description:
       "A beautiful landing page of the Edusity USA app using React and Tailwind.",
@@ -23,7 +42,7 @@ const projects = [
     image: "../../projects/Edusity.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Review App",
     description:
       "A beautiful CRUD app using HTML5, CSS3, and JavaScript to add movie reviews and further one can edit or delete the reviews.",
