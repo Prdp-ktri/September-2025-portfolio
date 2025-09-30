@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Booking dot com",
     description:
-      "Developed a responsive clone of Booking.com featuring accommodation search, filtering, and intuitive navigation. Designed with a clean UI and seamless user experience across devices, showcasing skills in front-end development, state management, and modern web design.",
+      "Designed booking.com clone with a clean UI and seamless user experience across devices, showcasing skills in front-end development, state management, and modern web design.",
     demoUrl: "https://booking-frontend-i01p.onrender.com/",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/Prdp-ktri/bookingdotcom",
