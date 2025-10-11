@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 1 year of experience in web development, I specialize in
+              With over 1 year of experience learning web development, I specialize in
               creating responsive, accessible, and performant web applications
               using modern technologies.
             </p>
@@ -34,7 +34,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1WE4Cto1vg9OJLRRW5iOcmKFqJYlakpMG/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1tA7E4-avFOfHzVHf1WMdb3STijuLOOjX/view?usp=sharing"
                 className="px-6 py-2 rounded-full border-primary text-primary
               hover:bg-primary/10 transition-colors duration-300 card-hover"
                 target="_blank"
