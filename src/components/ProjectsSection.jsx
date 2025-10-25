@@ -4,7 +4,7 @@ import { href } from "react-router-dom";
 const projects = [
   {
     id: 1,
-    title: "Finesse Furnishing E-COMMERCE",
+    title: "Finesse, Furnishing E-COMMERCE",
     description:
       "A furniture e-commerce for buying/selling beds and sofas, hosted on GitHub that includes frontend and backend code to manage products, users, shopping cart, and transactions.",
     demoUrl: "",
