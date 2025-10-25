@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Finesse Furnishing E-COMMERCE",
     description:
-      "This is a furniture-marketplace e-commerce project for buying and selling beds and sofas, hosted on GitHub by Prdp-ktri. It includes frontend and backend code to manage products, users, shopping cart, and transactions.",
+      "A furniture e-commerce for buying/selling beds and sofas, hosted on GitHub that includes frontend and backend code to manage products, users, shopping cart, and transactions.",
     demoUrl: "",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/Prdp-ktri/bed-n-sofa-E-commerce-project",
