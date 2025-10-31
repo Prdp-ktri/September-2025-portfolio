@@ -34,7 +34,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1lihVxi_N9_XzWaFoJePyD58e1b3fhV6E/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Cq7UXDg_-DeF1z26IQ7S-0QaBYQArPar/view?usp=drive_link"
                 className="px-6 py-2 rounded-full border-primary text-primary
               hover:bg-primary/10 transition-colors duration-300 card-hover"
                 target="_blank"
