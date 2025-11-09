@@ -14,6 +14,17 @@ const projects = [
   },
   {
     id: 2,
+    title: "Services React Project",
+    description:
+      "A Services e-commerce for buying IT and Non-IT Services, hosted on GitHub that includes frontend and backend code to add, edit and delete services.",
+    demoUrl: "https://services-project-react-app.onrender.com",
+    tags: ["React", "TailwindCSS"],
+    githubUrl:
+      "https://github.com/Prdp-ktri/Services-React-App/tree/main/services-project",
+    image: "../../projects/Services-Project.jpg",
+  },
+  {
+    id: 3,
     title: "Booking dot com",
     description:
       "Designed booking.com clone with a clean UI and seamless user experience across devices, showcasing skills in front-end development, state management, and modern web design.",
@@ -23,7 +34,7 @@ const projects = [
     image: "../../projects/bookingdotcom.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "ADANI Real Estate",
     description:
       "A beautiful landing page of the ADANI Real Estate app using React and Tailwind.",
@@ -43,7 +54,7 @@ const projects = [
     image: "../../projects/Edusity.jpg",
   },
   {
-    id: 4,
+    id: 6,
     title: "Movie Review App",
     description:
       "A beautiful CRUD app using HTML5, CSS3, and JavaScript to add movie reviews and further one can edit or delete the reviews.",
@@ -53,7 +64,7 @@ const projects = [
     image: "../../projects/MovieReview.jpg",
   },
   {
-    id: 6,
+    id: 7,
     title: "Mobirise Responsive Website",
     description:
       "A modern, responsive website built using HTML, CSS, and JavaScript, inspired by Mobirise’s design. Features clean layouts, smooth animations, and a mobile-friendly interface for a professional web presence.",
