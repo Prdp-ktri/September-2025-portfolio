@@ -88,7 +88,7 @@ export const ProjectsSection = () => {
           crafted with attention to details, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {projects.map((project, key) => (
             <div
               key={key}
