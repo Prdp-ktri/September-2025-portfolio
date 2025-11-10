@@ -43,16 +43,16 @@ const projects = [
     githubUrl: "https://github.com/Prdp-ktri/LandingPageWithTailwind",
     image: "../../projects/Adani.jpg",
   },
-  {
-    id: 5,
-    title: "Edusity USA",
-    description:
-      "A beautiful landing page of the Edusity USA app using React and Tailwind.",
-    demoUrl: "https://edusityusa.onrender.com",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    githubUrl: "https://github.com/Prdp-ktri/EdusityUSA",
-    image: "../../projects/Edusity.jpg",
-  },
+  // {
+  //   id: 5,
+  //   title: "Edusity USA",
+  //   description:
+  //     "A beautiful landing page of the Edusity USA app using React and Tailwind.",
+  //   demoUrl: "https://edusityusa.onrender.com",
+  //   tags: ["React", "TailwindCSS", "Supabase"],
+  //   githubUrl: "https://github.com/Prdp-ktri/EdusityUSA",
+  //   image: "../../projects/Edusity.jpg",
+  // },
   {
     id: 6,
     title: "Movie Review App",
@@ -63,16 +63,16 @@ const projects = [
     githubUrl: "https://github.com/Prdp-ktri/Movie-Review-App",
     image: "../../projects/MovieReview.jpg",
   },
-  {
-    id: 7,
-    title: "Mobirise Responsive Website",
-    description:
-      "A modern, responsive website built using HTML, CSS, and JavaScript, inspired by Mobirise’s design. Features clean layouts, smooth animations, and a mobile-friendly interface for a professional web presence.",
-    demoUrl: "https://mobirise-website.onrender.com",
-    tags: ["HTML", "CSS", "Javascript"],
-    githubUrl: "https://github.com/Prdp-ktri/mobirise-website",
-    image: "../../projects/mobirise.jpg",
-  },
+  // {
+  //   id: 7,
+  //   title: "Mobirise Responsive Website",
+  //   description:
+  //     "A modern, responsive website built using HTML, CSS, and JavaScript, inspired by Mobirise’s design. Features clean layouts, smooth animations, and a mobile-friendly interface for a professional web presence.",
+  //   demoUrl: "https://mobirise-website.onrender.com",
+  //   tags: ["HTML", "CSS", "Javascript"],
+  //   githubUrl: "https://github.com/Prdp-ktri/mobirise-website",
+  //   image: "../../projects/mobirise.jpg",
+  // },
 ];
 
 export const ProjectsSection = () => {
