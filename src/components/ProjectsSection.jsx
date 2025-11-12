@@ -73,6 +73,17 @@ const projects = [
   //   githubUrl: "https://github.com/Prdp-ktri/mobirise-website",
   //   image: "../../projects/mobirise.jpg",
   // },
+  {
+    id: 8,
+    title: "CRUD using Firebase",
+    description:
+      "A beautiful CRUD app using ReactJS for Front-End and Firebase for Back-End to add users and create their list.",
+    demoUrl: "https://crud-app-using-firebasec.onrender.com/",
+    tags: ["ReactJS", "Firebase"],
+    githubUrl:
+      "https://github.com/Prdp-ktri/CRUD-app-using-firebase/tree/main/CRUD-using-firebase",
+    image: "../../projects/firebase.jpg",
+  },
 ];
 
 export const ProjectsSection = () => {
