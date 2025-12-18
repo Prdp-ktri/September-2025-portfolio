@@ -90,7 +90,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <a
-                    href="mailto:pradeepkhatri44@live.com"
+                    href="mailto:pradeepcodes08@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     Ahmedabad, Gujarat [INDIA]
@@ -108,12 +108,12 @@ export const ContactSection = () => {
                 >
                   <Linkedin />
                 </a>
-                <a target="_blank" href="https://www.x.com/pradeepkhatri08">
+                <a target="_blank" href="https://www.x.com/phosphorouskite">
                   <X />
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/pradeepkhatri08"
+                  href="https://www.instagram.com/phosphorouskite"
                 >
                   <Instagram />
                 </a>
