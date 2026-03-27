@@ -113,7 +113,7 @@ export const ContactSection = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/phosphorouskite"
+                  href="https://www.instagram.com/pradeepkhatri08"
                 >
                   <Instagram />
                 </a>
@@ -195,7 +195,7 @@ export const ContactSection = () => {
                 type="submit"
                 disabled={isSubmitting}
                 className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2"
+                  "cosmic-button w-full flex items-center justify-center gap-2",
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
