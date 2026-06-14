@@ -117,7 +117,10 @@ export const ContactSection = () => {
                 >
                   <Instagram />
                 </a>
-                <a target="_blank" href="https://www.facebook.com/khatri.pens">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/greenteablitz"
+                >
                   <Facebook />
                 </a>
               </div>
